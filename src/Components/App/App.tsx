@@ -14,6 +14,7 @@ function App() {
     <div className="App product__list">
       <h2>{gK('products_title')}</h2>
       <ProductList products={products} />
+      <h2>{strings.fr.products_title}</h2>
     </div>
   )
 }

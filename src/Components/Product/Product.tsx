@@ -26,6 +26,8 @@ const Product = ({ product }: Props) => {
       </div>
 
       {isUnfolded ? <span>{product.description}</span> : <p>{gK('more')}</p>}
+      
+      
     </div>
   )
 }
